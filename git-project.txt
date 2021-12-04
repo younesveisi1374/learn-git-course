@@ -4,3 +4,4 @@ installs :
 1- git init : 						change directory to reposicory for git actions.
 2- git config --global user.name "your name" : 		set name for repository.
 3- git config --global user.email "your email" :	set email for repository.
+4- git clone <URL> : 					get repositories from github to make action and changing.
