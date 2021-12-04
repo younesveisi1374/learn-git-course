@@ -19,3 +19,4 @@ installs :
 							we want to move to stage and save or another thing with it.
 11- git log --oneline --graph : 			to wath changes has saves to git in commit with hash address and commit comments.
 12- git balme filename : 				to see any changes with details saved in git with number of lines.
+13- git tag (tag name) (hash name of commit) :		if we want to find a commit with a name we use this command and in tagname write name for tag and in hashname
