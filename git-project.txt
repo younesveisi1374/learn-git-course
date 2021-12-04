@@ -8,3 +8,6 @@ installs :
 5- git status : 					see and configor status files in git.
 6- git add (filename or -A) :				add file or files to commit git. -A is for all of files and add all of them to git together.
 7- git commit -m "comment" :				save status added files in commit git and write a good comment.
+8- git diff :						see changes what happened in git for file.
+	1- HEAD~number : 				see changes in stage with number of it in HEAD. 
+	2- HEAD~number filename : 			see changes in stage for a file.
