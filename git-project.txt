@@ -17,3 +17,4 @@ installs :
 	1- show :					to show  what changes is stash
 	2- pop or pop stash@{number of change\} : 	pop for move all changes to stage and pop stash@{no\} for any change is stash
 							we want to move to stage and save or another thing with it.
+11- git log --oneline --graph : 			to wath changes has saves to git in commit with hash address and commit comments.
