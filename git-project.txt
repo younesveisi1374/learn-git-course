@@ -11,3 +11,5 @@ installs :
 8- git diff :						see changes what happened in git for file.
 	1- HEAD~number : 				see changes in stage with number of it in HEAD. 
 	2- HEAD~number filename : 			see changes in stage for a file.
+9- .gitignore :						if we want to create a file and chne this file without change status in git we create .gitignore file and
+							write inside .gitignore *.typefile(it means any file with type we want it.) and save it to git status with commands.
