@@ -13,3 +13,7 @@ installs :
 	2- HEAD~number filename : 			see changes in stage for a file.
 9- .gitignore :						if we want to create a file and chne this file without change status in git we create .gitignore file and
 							write inside .gitignore *.typefile(it means any file with type we want it.) and save it to git status with commands.
+0- git stash :  					save changes without getting to commit and getback to stage after another changes.
+	1- show :					to show  what changes is stash
+	2- pop or pop stash@{number of change\} : 	pop for move all changes to stage and pop stash@{no\} for any change is stash
+							we want to move to stage and save or another thing with it.
