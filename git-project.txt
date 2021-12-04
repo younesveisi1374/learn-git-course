@@ -5,3 +5,6 @@ installs :
 2- git config --global user.name "your name" : 		set name for repository.
 3- git config --global user.email "your email" :	set email for repository.
 4- git clone <URL> : 					get repositories from github to make action and changing.
+5- git status : 					see and configor status files in git.
+6- git add (filename or -A) :				add file or files to commit git. -A is for all of files and add all of them to git together.
+7- git commit -m "comment" :				save status added files in commit git and write a good comment.
