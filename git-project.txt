@@ -1,0 +1,4 @@
+installs : 
+          1- install zsh : 				sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+          2- install git : 				apt install git
+
