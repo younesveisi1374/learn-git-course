@@ -35,4 +35,4 @@
 	3- -fd : 					removes all files in every where force.
 	4- -id :					asking for remove and show you options.
 	5- (-ix or -fx)or(-dix or -dfx): 		Delete files that have been ignored by the .gitignore like text2.log.(d for files in folders)
-	
+16- git revert (hashname-commit): 			when we create a commit and use revert,automatically create new commit with delete changes in that commit we called by hashname.
