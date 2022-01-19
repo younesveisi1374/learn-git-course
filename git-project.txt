@@ -29,4 +29,10 @@
 13- git tag (tag name) (hash name of commit) :		if we want to find a commit with a name we use this command and in tagname write name for tag and in hashname
 							write hahs of the commit.for example : git tag explain-about-command-diff 528a389.
 14- git reflog : 					see all changes happened in reposotory.
-]
+15- git clean : 					when we create file or directory and we want to remove it before add files to staging
+	1- -n : 					just tell us what file or files will be remove and do not remove files.
+	2- -nd : 					this command show created files in directorys too.
+	3- -fd : 					removes all files in every where force.
+	4- -id :					asking for remove and show you options.
+	5- (-ix or -fx)or(-dix or -dfx): 		Delete files that have been ignored by the .gitignore like text2.log.(d for files in folders)
+	
