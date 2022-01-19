@@ -1,6 +1,7 @@
  installs : 
-          1- install zsh : 				sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-          2- install git : 				apt install git
+ 	  1- install curl : 				apt-get install curl
+          2- install git : 				apt-get install git
+          3- install zsh : 				sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 1- git init : 						change directory to reposicory for git actions.
 2- git config --global user.name "your name" : 		set name for repository.
 3- git config --global user.email "your email" :	set email for repository.
@@ -10,14 +11,16 @@
 5- git status : 					see and configor status files in git.
 6- git add (filename or -A) :				add file or files to commit git. -A is for all of files and add all of them to git together.
 7- git commit -m "comment" :				save status added files in commit git and write a good comment.
+   1- git commit					file commit will be open and we can write our comment about changings
 8- git diff :						see changes what happened in git for file.
 	1- HEAD~number : 				see changes in stage with number of it in HEAD. 
 	2- HEAD~number filename : 			see changes in stage for a file.
-9- .gitignore :						if we want to create a file and chne this file without change status in git we create .gitignore file and
-							write inside .gitignore *.typefile(it means any file with type we want it.) and save it to git status with commands.
+9- .gitignore :						if we want to create a file and chne this file without change status in git we create .gitignore file and write inside .gitignore *.typefile(it means any file with type we want it.) and save it to git status with commands.
 0- git stash :  					save changes without getting to commit and getback to stage after another changes.
 	1- show :					to show  what changes is stash
 	2- pop or pop stash@{number of change\} : 	pop for move all changes to stage and pop stash@{no\} for any change is stash
+	3- -u 						to move files to stash when they are untraked and not add to staging
+	4- -a 						to add ignored files to stash
 							we want to move to stage and save or another thing with it.
 11- git log --oneline --graph : 			to wath changes has saves to git in commit with hash address and commit comments.
 12- git balme filename : 				to see any changes with details saved in git with number of lines.
