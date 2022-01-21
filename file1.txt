@@ -1,5 +1,6 @@
 line1
 line2
-line3 edited
-line4 edited
+line3 edited ()changed
+line4 edited 
 line5
+line6
