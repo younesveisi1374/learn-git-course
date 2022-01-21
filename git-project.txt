@@ -46,3 +46,9 @@
 	3- eval $( ssh-agent -s )
 	4- ssh-add id_rsa
 20- https://github.com/username.keys : 			with keys after username we can see public ssh keys
+21- git remote : 					conncet repository form system to github account
+	1- add origin (github link)			conncet repository to repository of github
+22- git push -u origin master :				upload files and floder of ripository git to github account
+23- git fetch origin master : 				downloads content from remote branch or repository.
+24- fit pull origin master : 				downloads content from a remote branch or repository like git fetch would do and automatically merges the new changes.
+
