@@ -40,3 +40,9 @@
 	1- --hard hashname commit :			after this hashname all of changes will be remove and do not back again.
 	2- --soft hashname commit : 			with this command all of changes after hashname will go to unstaged and we can delete or change commits with anything.
 18- git rm :						rm delete any file in local folder and in git also.
+19- create ssh key :
+	1- ssh-keygen
+	2- cat id-rsa.pub :				copy this code to github.in github go to settnigs ans go to "ssh and gpt keys" and create new ssh key and paste code to key table.
+	3- eval $( ssh-agent -s )
+	4- ssh-add id_rsa
+20- https://github.com/username.keys : 			with keys after username we can see public ssh keys
