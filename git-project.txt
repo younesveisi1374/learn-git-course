@@ -52,7 +52,14 @@
 23- git fetch origin master : 				downloads content from remote branch or repository.
 24- fit pull origin master : 				downloads content from a remote branch or repository like git fetch would do and automatically merges the new changes.
 25- git branch : 					see list of branchs in repository
+	1- -d (branch name) : 				delete branch
 26- git checkout :
 	1- -b (branch name) :				create a branch with a name for it.
 	2- (branch name) : 				switch between branchs.
-
+27- git rebase :
+	1- (branch name) : 				in present branch we write this command and all of changes will be merge in goal branch we called by name.
+	2- -i HEAD~(head number) : 			in this command we can do more things with commits.like :
+							1- drop : delete a ccommit.
+							2- squash : merge two commit in previous commit.
+28- git merge (branch name) ; 				in right branch we can merge branchs.but if we change two branch Simultaneous after merge automatically create a commit in right branch.
+  
