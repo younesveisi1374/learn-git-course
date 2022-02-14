@@ -1,2 +1,4 @@
 line 1 of feature 1
 line 2 of feature 1
+line three of feature 1 added
+
