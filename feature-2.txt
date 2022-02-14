@@ -1,4 +1,4 @@
 line one 1 added in feature-2
 line two edited
-line three added
+line three removed
 line four added
