@@ -51,4 +51,8 @@
 22- git push -u origin +master :			upload files and floder of ripository git to github account.(+ is for repository has created before in github and push new changes in new OS to account)
 23- git fetch origin master : 				downloads content from remote branch or repository.
 24- fit pull origin master : 				downloads content from a remote branch or repository like git fetch would do and automatically merges the new changes.
+25- git branch : 					see list of branchs in repository
+26- git checkout :
+	1- -b (branch name) :				create a branch with a name for it.
+	2- (branch name) : 				switch between branchs.
 
