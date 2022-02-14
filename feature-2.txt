@@ -1,0 +1,5 @@
+line one 1 added in feature-2
+line two edited
+line three removed
+line four added
+line 5 
