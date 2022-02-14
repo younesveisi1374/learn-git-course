@@ -1,4 +1,4 @@
 line 1 of feature 1
 line two of feature 1 edited
 line three of feature 1 added
-
+last line in this feature 1
